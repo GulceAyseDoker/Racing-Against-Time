@@ -8,6 +8,7 @@ public class Checkpoints : MonoBehaviour
 public bool CheckPoint1 = true;
 public bool CheckPoint2 = false;
 
+// checks if we are in the checkpoint and updates checkpoint reach times
 private void OnTriggerEnter (Collider other)
 {
     if(other.gameObject.CompareTag("Player"))
