@@ -32,6 +32,7 @@ public class RaceType : MonoBehaviour
     {
         if(SaveScript.RaceOver == true)
         {
+            // Medal initialization for Time Trial mode.        
             if(TimeTrial == true)
             {
                 if(SaveScript.RaceTimeMinutes < GoldMinutes)
