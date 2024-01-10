@@ -19,6 +19,7 @@ public class ProgressTracker : MonoBehaviour
 
 
     // Update is called once per frame
+    // If you go wrong way a message will be displayed on consol.
     void Update()
     {
         if(SaveScript.LapChange == true)
