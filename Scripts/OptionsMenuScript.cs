@@ -18,6 +18,8 @@ public class OptionsMenuScript : MonoBehaviour
     public GameObject OpponentsOn;
     public GameObject LapsOn;
 
+    // Menu's UI for race type, opponents number, lap count.
+    // Game start.
     public void ModeNext()
     {
         if(TimeTrial == true)
