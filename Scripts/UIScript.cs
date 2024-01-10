@@ -159,22 +159,7 @@ public class UIScript : MonoBehaviour
                 CheckPointTime.text = "+" + (SaveScript.LastCheckPoint2 - SaveScript.ThisCheckPoint2).ToString();
                 StartCoroutine(CheckPointOff());
             }
-
-            //Display position
-            
-            
         }
-
-        //Wrong way message
-        //if(SaveScript.WrongWay == true)
-        //{
-        //WrongWayText.SetActive(true);
-        //}
-        //if (SaveScript.WrongWay == false)
-        //{
-          // WrongWayText.SetActive(false);
-    //}
- 
     }
 
     IEnumerator CheckPointOff()
