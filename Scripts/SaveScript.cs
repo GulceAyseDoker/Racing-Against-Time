@@ -69,7 +69,8 @@ public class SaveScript : MonoBehaviour
                 LapTimeSeconds = 0f;
                 GameTime = 0f;
             }
-
+            // delta time is used for the time to be same in every computer.
+            // lap minuts and seconds incremented
             if(LapNumber >= 1){
                 LapTimeSeconds = LapTimeSeconds + 1*Time.deltaTime;
                 RaceTimeSeconds = RaceTimeSeconds + 1*Time.deltaTime;
