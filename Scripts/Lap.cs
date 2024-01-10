@@ -8,6 +8,8 @@ public class Lap : MonoBehaviour
     {
         if(other.gameObject.CompareTag("Player"))
         {
+            // Tracks lap number and best lap until game is over.
+            // Also updaset the checkpoint info. Makes them false after we start other lap and initializes it's last pas time.
             if(SaveScript.RaceOver == false)
             {
                 if(SaveScript.HalfWayActivated == true)
